@@ -11,9 +11,9 @@ int main(void)
 	int j;
 	int d;
 
-	for (j = '0'; j <= '8'; j++)
+	for (j = 0; j <= 8; j++)
 	{
-		for (d = j + 1; d <= '9'; d++)
+		for (d = j + 1; d <= 9; d++)
 		{
 			putchar(j + '0');
 			putchar(d + '0');
@@ -22,7 +22,7 @@ int main(void)
 			putchar(',');
 		putchar(' ');
 			}
-		}	
+		}
 	}
 	putchar('\n');
 
