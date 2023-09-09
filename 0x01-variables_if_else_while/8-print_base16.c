@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int dec;
+	char dec;
 	char hex;
 
 	for (dec = 0; dec <= 9; dec++)
