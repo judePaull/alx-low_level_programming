@@ -11,7 +11,7 @@ int main(void)
 {
 	int combi;
 
-	for (combi = '0'; first <= '9'; first++)
+	for (combi = '0'; combi <= '9'; combi++)
 		if (combi != '9')
 		{
 			putchar(',');
