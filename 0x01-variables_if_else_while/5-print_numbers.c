@@ -10,9 +10,9 @@ int main(void)
 {
 	int sing_digit;
 
-	for (sing_digit = '0'; sing_digit <= 9; sing_digit++)
+	for (sing_digit = 0; sing_digit <= 9; sing_digit++)
 	{
-		putchar(sing_digit);
+		putchar('0'+ sing_digit);
 	}
 	putchar('\n');
 
