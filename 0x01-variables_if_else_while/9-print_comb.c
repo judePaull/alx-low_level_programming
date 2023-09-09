@@ -9,15 +9,13 @@
 int main(void)
 
 {
-	int first;
-	int secnd;
+	int combi;
 
-	for (first = '0'; first <= '9'; first++)
-		for (secnd = '0'; secnd <= '9'; secnd++)
+	for (combi = '0'; first <= '9'; first++)
+		if (combi != '9')
 		{
-			putchar(first + '0');
 			putchar(',');
-			putchar(secnd + '0');
+			putchar(' ');
 		}
 	putchar('\n');
 
