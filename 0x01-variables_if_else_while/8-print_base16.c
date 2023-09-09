@@ -11,11 +11,11 @@ int main(void)
 	int dec;
 	char hex;
 
-	for (dec = 0; dec <= 26; dec++)
+	for (dec = 0; dec <= 9; dec++)
 	{
 		putchar(dec);
 	}
-	for (hex = 'a'; hex <= 'z'; hex++)
+	for (hex = 'a'; hex <= 'f'; hex++)
 	{
 		putchar(hex);
 	}
