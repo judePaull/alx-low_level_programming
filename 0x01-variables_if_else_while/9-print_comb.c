@@ -12,11 +12,14 @@ int main(void)
 	int combi;
 
 	for (combi = 0; combi <= 9; combi++)
+	{
+		putchar(combi + '0');
 		if (combi != 8)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+	}
 	putchar('\n');
 
 	return (0);
