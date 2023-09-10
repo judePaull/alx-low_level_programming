@@ -14,11 +14,11 @@ int main(void)
 	{
 		for (n = j + 1; n <= 99; n++)
 		{
-			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
 			putchar(' ');
-			putchar(n / 10 + '0');
-			putchar(n % 10 + '0');
+			putchar((n / 10) + '0');
+			putchar((n % 10) + '0');
 			if (j != 99 || n != 99)
 			{
 			putchar(',');
