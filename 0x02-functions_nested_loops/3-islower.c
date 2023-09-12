@@ -3,6 +3,7 @@
 
 /**
 * _islower - Point of Entry.
+* @c - inputed character to be checked.
 * Return: 0
 */
 
