@@ -6,6 +6,7 @@
 * Return: 0
 */
 
+/* print_alphabet - called to print alphabets */
 void print_alphabet(void)
 
 {
