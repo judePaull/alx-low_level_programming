@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
-* main - prints the alphabet, in lowercase, followed by a new line.
+* print_alphabet - Point of Entry.
 * Return: 0
 */
 
-/* print_alphabet - called to print alphabets */
 void print_alphabet(void)
 
 {
