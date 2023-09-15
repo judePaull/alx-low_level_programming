@@ -10,9 +10,9 @@ void more_numbers(void)
 {
 	char m, n;
 
-	int l;
+	int l = 0;
 
-	while(l < 10)
+	while (l < 10)
 	{
 		for (m = 0; m <= 14; m++)
 		{
